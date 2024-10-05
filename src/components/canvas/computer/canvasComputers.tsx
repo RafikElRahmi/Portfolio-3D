@@ -24,13 +24,13 @@ const ComputersCanvas: FC = () => {
     return (
         <Canvas
             frameloop="demand"
-            shadows
+            // shadows
             dpr={[1, 2]}
             camera={{ position: [20, 3, 5], fov: 25 }}
             gl={{ preserveDrawingBuffer: true }}>
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
-                    enableZoom={false}
+                    enableZoom={true}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
                 />
