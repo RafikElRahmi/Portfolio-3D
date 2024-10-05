@@ -47,8 +47,7 @@ const MainNav = () => {
                         className="w-9 h-9 object-contain rounded-full overflow-hidden"
                     />
                     <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-                        Rafik &nbsp;
-                        <span className="sm:block hidden"> | Portfolio</span>
+                        Rafik | Portfolio
                     </p>
                 </a>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
