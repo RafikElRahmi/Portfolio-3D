@@ -1,5 +1,5 @@
 import { IMAGES, IPojects } from "@app/config";
-import { fadeIn, slideIn } from "@app/utils/motion";
+import {  slideIn } from "@app/utils/motion";
 import { motion } from "framer-motion";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
@@ -9,7 +9,7 @@ interface IProjectProps extends IPojects {
     index: number;
 }
 const ProjectCard: FC<IProjectProps> = ({
-    index,
+    index :_index,
     name,
     description,
     tags,
@@ -18,7 +18,7 @@ const ProjectCard: FC<IProjectProps> = ({
 }) => {
     const { t } = useTranslation();
     return (
-        <motion.div variants={slideIn("", "tween", 0.1, 1)}>
+        <motion.div variants={slideIn("", "tween", 0.1, 1)} >
             <Tilt
                 options={{
                     max: 45,

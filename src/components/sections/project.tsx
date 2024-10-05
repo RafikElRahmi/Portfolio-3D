@@ -1,30 +1,13 @@
 import { styles } from "@app/styles/styles";
-import { fadeIn, slideIn, textVariant } from "@app/utils/motion";
+import {  slideIn } from "@app/utils/motion";
 import { motion } from "framer-motion";
 import { ProjectCard } from "../ui";
 import { projects } from "@app/config";
 import { SectionWrapper } from "@app/hoc";
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
 
 const Project = () => {
     const { t } = useTranslation();
-    const [isMobile, setIsMobile] = useState<boolean>(false);
-
-    useEffect(() => {
-        const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-        setIsMobile(mediaQuery.matches);
-
-        const handleMediaQueryChange = (event: MediaQueryListEvent) => {
-            setIsMobile(event.matches);
-        };
-
-        mediaQuery.addEventListener("change", handleMediaQueryChange);
-        return () => {
-            mediaQuery.removeEventListener("change", handleMediaQueryChange);
-        };
-    }, []);
     return (
         <div className="flex flex-col justify-center items-center ">
             <motion.div variants={slideIn("", "tween", 0.1, 1)}>
