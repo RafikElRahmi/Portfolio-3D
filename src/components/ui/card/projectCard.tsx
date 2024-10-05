@@ -1,5 +1,5 @@
 import { IMAGES, IPojects } from "@app/config";
-import { fadeIn } from "@app/utils/motion";
+import { fadeIn, slideIn } from "@app/utils/motion";
 import { motion } from "framer-motion";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
@@ -18,7 +18,7 @@ const ProjectCard: FC<IProjectProps> = ({
 }) => {
     const { t } = useTranslation();
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+        <motion.div variants={slideIn("", "tween", 0.1, 1)}>
             <Tilt
                 options={{
                     max: 45,
