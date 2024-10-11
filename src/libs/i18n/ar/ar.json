@@ -54,7 +54,7 @@
     "A web app that sells cakes and offers courses on how to make them, providing users with delicious treats and the skills to create their own confections. It features secure payments and engaging tutorials for a delightful baking experience.": "تطبيق ويب يبيع الكعك ويقدم دورات حول كيفية صنعها، موفراً للمستخدمين أطباق لذيذة والمهارات لإنشاء حلوياتهم الخاصة. يتميز بمدفوعات آمنة ودروس جذابة لتجربة خبز ممتعة.",
     "A task manager app that notifies users about their event dates, helping them stay organized and on schedule. It features intuitive task tracking, reminders, and a user-friendly interface for effective time management.": "تطبيق مدير مهام يُبلغ المستخدمين بتواريخ أحداثهم، مما يساعدهم على البقاء منظمين وفي الوقت المحدد. يتميز بتتبع المهام بشكل بديهي، وتذكيرات، وواجهة سهلة الاستخدام لإدارة الوقت بشكل فعال.",
 
-     "Developing and maintaining web applications using React.js and other related technologies.": "تطوير وصيانة تطبيقات الويب باستخدام React.js وغيرها من التقنيات ذات الصلة.",
+    "Developing and maintaining web applications using React.js and other related technologies.": "تطوير وصيانة تطبيقات الويب باستخدام React.js وغيرها من التقنيات ذات الصلة.",
     "Collaborating with cross-functional teams to create high-quality products.": "التعاون مع فرق متعددة التخصصات لإنشاء منتجات عالية الجودة.",
     "Implementing responsive design and ensuring cross-browser compatibility.": "تنفيذ التصميم المستجيب وضمان التوافق عبر المتصفحات.",
     "Mentoring junior developers and conducting code reviews.": "توجيه المطورين المبتدئين وإجراء مراجعات للشفرة.",
@@ -63,5 +63,7 @@
     "Ensuring cross-browser compatibility across various platforms.": "ضمان التوافق بين المتصفحات عبر منصات متعددة.",
     "Engaging in code reviews to foster a culture of continuous improvement.": "المشاركة في مراجعات الشفرة لتعزيز ثقافة التحسين المستمر.",
     "Collaborated remotely with a team in Poland to facilitate seamless project management.": "التعاون عن بُعد مع فريق في بولندا لتسهيل إدارة المشاريع بسلاسة.",
-    "Enhanced expertise in the MERN stack through collaboration with junior developers.": "تعزيز الخبرة في مجموعة MERN من خلال التعاون مع المطورين المبتدئين."
+    "Enhanced expertise in the MERN stack through collaboration with junior developers.": "تعزيز الخبرة في مجموعة MERN من خلال التعاون مع المطورين المبتدئين.",
+
+    "download CV": "تحميل السيرة الذاتية"
 }
